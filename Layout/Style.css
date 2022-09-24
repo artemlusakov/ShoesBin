@@ -1,0 +1,64 @@
+
+.Content_Reg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border:solid 2px #3f92b0;
+    width: 330px;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.Bloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.Center{
+
+    display: flex;
+    justify-content: center;
+}
+
+.Center img {
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.Content_Reg input{
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px ;
+    border:solid 1px #3f92b0;
+}
+
+.Content_Reg Select{
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px ;
+    border:solid 1px #3f92b0;
+}
+
+.Content_Reg button{
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px ;
+    border:solid 1px #3f92b0;
+    width: 200px;
+}
+
+
+.blye{
+    background: #3f92b0;
+    color: #fff;
+}
+
+.blye:hover{
+   background: white;
+    color: #3f92b0;
+}
