@@ -1,4 +1,4 @@
-
+/*Registrai.html  to_come_in.html*/
 .Content_Reg{
     display: flex;
     align-items: center;
@@ -62,3 +62,78 @@
    background: white;
     color: #3f92b0;
 }
+/*Registrai.html  to_come_in.html*/
+
+/*Home.html*/
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    background: #3f92b0;
+    border-radius: 5px;
+    height: 70px;
+    padding: 5px;
+    border: 1px solid #3f92b0;
+    margin-left:5px ;
+}
+
+.navigation a:hover {
+    color: #3f92b0;
+    background: #ffffff;
+    border: 1px solid #3f92b0;
+}
+
+.navigation img {
+    height: 50px;
+    width: 100px;
+}
+
+.Bloc1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Slaider{
+    height: 300px;
+    width: 800px;
+    border: 1px solid #000;
+}
+
+.Bloc2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Box img {
+    height: 200px;
+    width: 200px;
+}
+
+
+.Box{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border: solid 1px #000000;
+    border-radius: 5px;
+}
+
+.Box h3{
+    border-bottom: 2px solid #000000 ;
+}
+
+.description{
+    width: 200px;
+}
+
+/*Home.html*/
