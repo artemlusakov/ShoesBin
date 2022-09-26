@@ -1,3 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
 /*Registrai.html  to_come_in.html*/
 .Content_Reg{
     display: flex;
@@ -106,20 +115,48 @@
     border: 1px solid #000;
 }
 
-.Bloc2{
+.categories{
     display: flex;
-    align-items: center;
     justify-content: space-around;
+
+}
+
+.BoxCategories{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius:10px;
+
+}
+
+.BoxCategories img{
+    height:5vh;
+    width: 5vw;
+}
+
+.Bloc2{
+    margin-top: 20px;
+}
+
+.Bloc3{
+
+}
+
+.Line{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
 .Box img {
-    height: 200px;
-    width: 200px;
+    height: 17vh;
+    width: 10vw;
 }
 
 
 .Box{
-    width: 300px;
+    width: 15vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -128,12 +165,60 @@
     border-radius: 5px;
 }
 
+.buy{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.buy button{
+    align-items: center;
+    height: 3vh;
+    width: 6vw;
+    border-radius:5px;
+    margin-left: 20px;
+    color: #ffffff;
+    background: #3f92b0;
+    border: 1px solid #3f92b0;
+
+}
+
+.buy button:hover{
+    color: #3f92b0;
+    background: #ffffff;
+    border: 1px solid #3f92b0;
+}
+
 .Box h3{
     border-bottom: 2px solid #000000 ;
 }
 
 .description{
     width: 200px;
+    border-bottom:1px solid #000000 ;
+    border-top:1px solid #000000 ;
 }
 
+.Bloc4{
+    height: 20vh;
+    background: #3f92b0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    align-items: center;
+}
+.pngDown img{
+    margin-left: 10px;
+}
+
+.Number{
+
+}
+
+.pngDown img{
+    width: 2vw;
+    height: 5vh;
+}
 /*Home.html*/
