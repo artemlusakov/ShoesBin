@@ -147,7 +147,7 @@ h1{
 }
 
 .BoxCategories img{
-    height: 80px;
+    height: 100px;
     width: 120px;
 }
 
@@ -372,23 +372,26 @@ h1{
 }
 
 .BlocBin1{
-    width:70vw;
-    height: 91.9vh;
-    background: #212121;
+    width:70%;
 }
+.BinProduct{
+    display: flex;
+}
+
 
 .BlocBin2{
     background: #3f92b0;
-    height: 91.9vh;
-    width: 30vw;
+    width: 30%;
 }
+
 .productBin{
     width: 30vw;
     height: 70vh;
 }
 .SumBin{
     width: 30vw;
-    height: 21.9vh;
+    height: 200px;
+    background: #67BFA6;
 }
 /*Bin.html*/
 
